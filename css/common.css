@@ -8,6 +8,19 @@ section{
   position: relative;
   z-index: 0; 
 }
+/* 공통제목스타일 */
+section h2{
+  /* font-size: 2rem;
+  font-weight: 700; */
+  cursor: default;
+}
+/* section .rel h3{
+  margin-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.95rem;
+} */
+
 
 /* 버튼 */
 a.btn {

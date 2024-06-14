@@ -260,14 +260,15 @@ section .mindeco-p img {
   }
   #section6 .rel h2 b:after{
     content: '';
-    width: 8rem;
-    height: 8rem;
+    width: 7.5rem;
+    height: 7.5rem;
     position: absolute;
     background-image: url(../img/todomatesymbol.png);
     background-size: cover;
     top: 0;
     left: 100%;
   }
+  #section6 .rel h3{margin-top: 4rem;}
   .tit_wrap.pconly {display: block;}
   .storeset{
     display: flex;

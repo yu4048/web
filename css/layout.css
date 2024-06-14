@@ -303,9 +303,25 @@ header .rel .header_left{
 }
 #section2 .rel .tit_wrap,
 #section3 .rel .tit_wrap,
-#section4 .rel .tit_wrap,
-#section6 .rel .tit_wrap{
+#section4 .rel .tit_wrap{
   text-align: center;
+  padding: 0 3.5rem;
+}
+#section6 .rel .tit_wrap{  text-align: center;}
+#section2 .rel .tit_wrap h2,
+#section3 .rel .tit_wrap h2,
+#section4 .rel .tit_wrap h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+#section2 .rel .tit_wrap h3,
+#section3 .rel .tit_wrap h3,
+#section4 .rel .tit_wrap h3,
+#section6 .rel .tit_wrap h3{
+  margin-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.95rem;
 }
 .function-bg{
   margin: 0;
@@ -353,7 +369,7 @@ header .rel .header_left{
   background-image: url(../img/todomatesymbol.png);
   background-size: cover;
   top: 0;
-  right: -4rem;
+  right: -3.5rem;
 }
 /* hover효과부분 */
 #section6 .gstore {
