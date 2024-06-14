@@ -151,7 +151,6 @@
     left: 100rem;
     opacity: 0;
   }
-
   /* 1 */
   #section1 .rel{text-align: center;}
   #section1 .rel h2 b{
@@ -179,7 +178,6 @@
     transform: translateX(-50%) scale(1.2);
   }
   .mockup.mockupset{display: block;}
-
   /* 2-4 */
   #section2,
   #section3,
@@ -207,7 +205,6 @@
   #section3 .rel,
   #section4 .rel{
     padding-top: 14rem;
-    /* background-color: #7162D1; */
   }
   #section2 .rel .tit_wrap,
   #section3 .rel .tit_wrap,
@@ -224,7 +221,6 @@
     transform: scale(0.7);
     right: 20rem;
   }
-
 
   #section3 .rel h3,
   #section4 .rel h3{line-height: 4.2rem;}
