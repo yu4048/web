@@ -149,10 +149,12 @@
     position: absolute;
     top: 22rem;
     left: 100rem;
+    opacity: 0;
   }
 
   /* 1 */
   #section1 .rel{text-align: center;}
+  #section1 .tit_wrap{margin-top: 3rem;}
   #section1 .rel h2 b{
     font-size: 4rem;
     font-family: SUITE_EB, sans-serif;
