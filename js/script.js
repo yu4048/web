@@ -73,7 +73,7 @@ let funcObj={
         }
     });
     },
-    f_1:function(){
+    f_1: function () {
       const tl = gsap.timeline();
       tl.to("#section1 h2", {
         opacity: 1,
@@ -83,88 +83,76 @@ let funcObj={
         opacity: 1,
         y: -30,
       });
-      tl.to(".s1_list li ", {
+      tl.to(".function >*", {
         opacity: 1,
-        stagger: 0.3,
-        y: -30,
+        y: -50,
+        stagger: 0.5,
       });
     },
-  f_2:function(){
-    const tl = gsap.timeline();
-    tl.to("#section2 .tit_wrap > *", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-    tl.to(".s2_card", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-  },
-  f_3:function(){
-    const tl = gsap.timeline();
-    tl.to("#section3 .rel > *", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-  },
-  f_4:function(){
-    const tl = gsap.timeline();
-
-    tl.to("#section4 .tit_wrap > * ", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-    tl.to("#section4 .img_wrap > .deco ", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-  },
-  f_5:function(){
-    const tl = gsap.timeline();
-
-    tl.to("#section5 .tit_wrap > * ", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-    tl.to("#section5 .img_wrap > .deco ", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-  },
-  f_6:function(){
-    const tl = gsap.timeline();
-
-    tl.to("#section6 .tit_wrap > * ", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-    tl.to("#section6 .img_wrap > .deco ", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-  },
-  f_7:function(){
-    const tl = gsap.timeline();
-
-    tl.to("#section7 .tit_wrap > * ", {
-      opacity: 1,
-      y: -30,
-    });
-    tl.to(".s7_list li ", {
-      opacity: 1,
-      stagger: 0.3,
-      y: -30,
-    });
-  },
+    f_2:function(){
+      const tl = gsap.timeline();
+      tl.to("#section2 h2", {
+        opacity: 1,
+        y: -30,
+      });
+      tl.to("#section2 h3", {
+        opacity: 1,
+        y: -30,
+      });
+      tl.to("#section2 .function-bg >*", {
+        opacity: 1,
+        y: -50,
+        stagger: 0.5,
+      });
+    },
+    f_3:function(){
+      const tl = gsap.timeline();
+      tl.to("#section3 h2", {
+        opacity: 1,
+        y: -30,
+      });
+      tl.to("#section3 h3", {
+        opacity: 1,
+        y: -30,
+      });
+      tl.to("#section3 .function-bg >*", {
+        opacity: 1,
+        y: -50,
+        stagger: 0.5,
+      });
+    },
+    f_4:function(){
+      const tl = gsap.timeline();
+      tl.to("#section4 h2", {
+        opacity: 1,
+        y: -30,
+      });
+      tl.to("#section4 h3", {
+        opacity: 1,
+        y: -30,
+      });
+      tl.to("#section4 .function-bg >*", {
+        opacity: 1,
+        y: -50,
+        stagger: 0.5,
+      });
+    },
+    f_5:function(){
+      const tl = gsap.timeline();
+      tl.to("#section6 h2", {
+        opacity: 1,
+        y: -30,
+      });
+      tl.to("#section6 h3", {
+        opacity: 1,
+        y: -30,
+      });
+      tl.to("#section6 .storeset >*", {
+        opacity: 1,
+        y: -50,
+        stagger: 0.5,
+      });
+    },
 };
 
 let section = document.querySelectorAll('section');

@@ -154,7 +154,6 @@
 
   /* 1 */
   #section1 .rel{text-align: center;}
-  #section1 .tit_wrap{margin-top: 3rem;}
   #section1 .rel h2 b{
     font-size: 4rem;
     font-family: SUITE_EB, sans-serif;
@@ -187,6 +186,22 @@
   #section4{
     padding: 0;
     margin-bottom: 24rem;
+  }
+  #section6 .rel .tit_wrap{  text-align: center;}
+  #section2 .rel .tit_wrap h2,
+  #section3 .rel .tit_wrap h2,
+  #section4 .rel .tit_wrap h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+  }
+  #section2 .rel .tit_wrap h3,
+  #section3 .rel .tit_wrap h3,
+  #section4 .rel .tit_wrap h3,
+  #section6 .rel .tit_wrap h3{
+    margin-top: 5rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 4.8rem;
   }
   #section2 .rel,
   #section3 .rel,
