@@ -1,0 +1,43 @@
+
+.rel{
+  position: relative;
+  height: 100%; /* 부모가 가지고 있는 높이값을 유연하게 가질수 있도록함 */
+}
+section{
+  padding: 7rem 3.5rem;
+  position: relative;
+  z-index: 0; 
+}
+
+/* 버튼 */
+a.btn {
+  border: 2px solid #000;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  width: 14rem;
+  height: 4.3rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  transition: 0.3s;
+  font-weight: 500;
+}
+a.btn:hover{
+  color: #fff;
+  background-color: #000;
+}
+
+
+
+.mindeco{
+  margin-top: 6rem;
+}
+
+
+/* 기능소개 공통 */
+.tit_wrap h2 i{
+  font-style: normal;
+} 
+
