@@ -87,7 +87,7 @@
   }
   /* 0 */
   #section0{
-    background: url(../img/mainbg.png) no-repeat  center 58% /cover ;
+    background: url(../img/mbg.png) no-repeat  80% top /cover ;
   }
   
   /* 가이드  */
@@ -120,12 +120,16 @@
     top: 62rem;
     width: 18rem;
     height: 5rem;
-    left: 4.5rem;
+    left: 7rem;
     background-color: #fff;
     border-radius: .6rem;
     line-height: 5rem;
     font-size: 1.6rem;
     font-weight: 700;
+  }
+  #section0 .db2{
+    position: absolute;
+    margin-top: 0;
   }
   #section0 .db1 span, 
   #section0 .db2 span{
@@ -135,8 +139,8 @@
     position: absolute;
     left: 35rem;
   }
-  #section0 .db1 img, 
-  #section0 .db2 img{
+  #section0 .db1-in img, 
+  #section0 .db2-in img{
     transform: scale(1.4);
   }
   /* .db1 .arrow1 i{color: #fff;} */

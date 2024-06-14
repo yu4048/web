@@ -126,10 +126,11 @@ header .rel .header_left{
 /* Section 0____________ */
 #section0{
   position: relative;
-  background: url(../img/mainbg-m.png) no-repeat 74%  center/cover;
+  background: url(../img/mbg.png) no-repeat 74%  top/cover;
   height: 100vh;
   padding: 0; 
 }
+
 #section0 .tit_wrap {
   position: absolute;
   padding: 7rem 3.5rem 0 3.5rem;
@@ -148,29 +149,42 @@ header .rel .header_left{
   font-family: SUITE_EB, sans-serif;
   font-size: 2.5rem;
 }
-#section0 .db1{
+#section0 .db1,
+#section0 .db2{
   position: absolute;
   top: 75%;
   left: 3.5rem;
-  width: 12rem;
-  height: 4.5rem;
+  width: 9.8rem;
+  height: 3.5rem;
   background-color: #fff;
   border-radius: .6rem;
-  line-height: 4.5rem;
+  line-height: 3.5rem;
   font-size: 1.5rem;
   font-weight: 600;
 }
-#section0 .db1-in{
+#section0 .db2{
+  position: absolute;
+  margin-top: 6rem;
+}
+#section0 .db1-in a{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
-#section0 .db1 img{
+#section0 .db1 .db1-in img{
   width: 2.03rem;
   height: 2.194rem;
 }
-
-
+#section0 .db2-in a{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+#section0 .db2 .db2-in img{
+  width: 2.194rem;
+  height: 2.194rem;
+  margin-right: .2rem;
+}
 @keyframes arrow-ani{
   0% {
     opacity: 0;
@@ -186,34 +200,37 @@ header .rel .header_left{
 }
 }
 /* arrow1 */
-.db1 .arrow1{
-  display: flex;
-  position: absolute;
-  top: 50%;
-  font-size: 1.8rem;
-  transform: translate(-50%, -50%);
-}
-.db1 .arrow1 i{
-  margin-right: 0.3rem;
-  animation: arrow-ani 1.5s infinite ease-in-out;
-}
-.db1 .arrow1 i:nth-child(2){animation-delay: 0.2s;}
-.db1 .arrow1 i:nth-child(3){animation-delay: 0.4s;}
-/* arrow2 */
-.db2 .arrow2{
+.db1-in .arrow1{
   display: flex;
   position: absolute;
   top: 50%;
   left: 130%;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   transform: translate(-50%, -50%);
 }
-.db2 .arrow2 i{
+.db1-in .arrow1 i{
   margin-right: 0.3rem;
   animation: arrow-ani 1.5s infinite ease-in-out;
 }
-.db2 .arrow2 i:nth-child(2){animation-delay: 0.2s;}
-.db2 .arrow2 i:nth-child(3){animation-delay: 0.4s;}
+.db1-in .arrow1 i:nth-child(2){animation-delay: 0.2s;}
+.db1-in .arrow1 i:nth-child(3){animation-delay: 0.4s;}
+
+/* arrow2 */
+.db2-in .arrow2{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 130%;
+  font-size: 1.6rem;
+  transform: translate(-50%, -50%);
+}
+.db2-in .arrow2 i{
+  margin-right: 0.3rem;
+  animation: arrow-ani 1.5s infinite ease-in-out;
+}
+.db2-in .arrow2 i:nth-child(2){animation-delay: 0.2s;}
+.db2-in .arrow2 i:nth-child(3){animation-delay: 0.4s;}
+
 .characterM{
   position: absolute;
   top: 38rem;
@@ -255,7 +272,6 @@ header .rel .header_left{
 .mockup{margin-top: 8rem;}
 .mockup.monly{
   position: relative;
-  border: 1px solid #000;
   text-align: center;
 }
 #section1{padding: 7rem 0;}
@@ -268,7 +284,7 @@ header .rel .header_left{
 }
 @keyframes mindeco-ani {
   0%{transform: translateY(.5rem);}
-  100%{transform: translateY(1rem);}
+  100%{transform: translateY(2rem);}
 }
 .mindeco{animation: mindeco-ani 0.8s ease-in-out alternate infinite;}
 
@@ -325,19 +341,19 @@ header .rel .header_left{
 }
 
 #section6 .rel h2 b{
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   font-family: SUITE_EB, sans-serif;
   position: relative;
 }
 #section6 .rel h2 b:after{
   content: '';
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
   position: absolute;
   background-image: url(../img/todomatesymbol.png);
   background-size: cover;
   top: 0;
-  left: 110%;
+  right: -4rem;
 }
 /* hover효과부분 */
 #section6 .gstore {
@@ -347,6 +363,7 @@ header .rel .header_left{
   align-items: center;
   justify-content: center;
 }
+#section6  h3{margin-top: 1rem;}
 #section6 .appstore{
   display: flex;
   margin-top: 8rem;
@@ -357,9 +374,9 @@ header .rel .header_left{
 .gstore p,
 .appstore p{
   position: relative;
-  transform: scale(0.8);
+  transform: scale(0.7);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-  border-radius: 1rem;
+  border-radius: 1.6rem;
   cursor: pointer;
   transition: 0.15s;
 }
